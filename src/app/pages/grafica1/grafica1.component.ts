@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grafica1',
@@ -6,11 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class Grafica1Component implements OnInit {
+export class Grafica1Component {
 
-  constructor() { }
 
-  ngOnInit(): void {
+  GetTitulos(titulo: string) {
+
+    if (titulo.length == 0) {
+      titulo = "Sin Titulo"
+      return titulo;
+
+    } else {
+      return titulo;
+    }
+
   }
+
+ @Input('labels')  label1: string[] = ['pan', 'Arroz', 'Huevo'];
+                    label2: string[] = ['leche','carne','pollo']
+   @Input('data')  data1 = [
+    [400, 100, 200],
+
+  ];
 
 }
