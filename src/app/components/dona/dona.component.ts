@@ -24,7 +24,7 @@ export class DonaComponent  {
  ];
 
    public colors:Colors[]=[
-    {backgroundColor:['#eee','#ccc','black']}
+    {backgroundColor:['#eee','brown','black']}
    ];
 
 

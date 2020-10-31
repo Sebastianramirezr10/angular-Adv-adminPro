@@ -19,6 +19,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { DonaComponent } from '../components/dona/dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { DonaComponent } from '../components/dona/dona.component';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingsComponent,
   ],
 
   exports: [
@@ -35,8 +37,8 @@ import { DonaComponent } from '../components/dona/dona.component';
     Grafica1Component,
     PagesComponent,
     IncrementadorComponent,
-    DonaComponent
-
+    DonaComponent,
+    AccountSettingsComponent
   ],
 
   imports: [

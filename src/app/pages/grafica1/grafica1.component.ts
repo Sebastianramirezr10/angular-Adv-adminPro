@@ -21,9 +21,9 @@ export class Grafica1Component {
 
   }
 
- @Input('labels')  label1: string[] = ['pan', 'Arroz', 'Huevo'];
+ @Input('labels')label1: string[] = ['pan', 'Arroz', 'Huevo'];
                     label2: string[] = ['leche','carne','pollo']
-   @Input('data')  data1 = [
+   @Input('data')data1 = [
     [400, 100, 200],
 
   ];
